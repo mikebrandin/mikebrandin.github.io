@@ -4,7 +4,7 @@ import { Highlight } from "./Highlight";
 import userData from "@constants/data";
 
 export default function Hero() {
-  const colors = ["#4c6991", "#4c6991",  "#4c6991", "#4c6991", "#4c6991"];
+  const colors = ["#5574a1", "#4c6991", "#425c80", "#384e6e", "#2c3e57"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}

@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           About Me.
         </h1>
       </div>
@@ -114,33 +114,33 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="my-4 bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Languages
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img 
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
@@ -174,27 +174,27 @@ export default function AboutMe() {
             <div className="flex flex-row flex-wrap mt-8">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
              <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain-wordmark.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
              <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-0"
               />
              <img
                 src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Lambda_architecture_logo.svg"

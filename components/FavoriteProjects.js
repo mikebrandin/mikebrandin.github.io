@@ -129,7 +129,7 @@ export default function FavoriteProjects() {
                 AI Adversial Search - Connect 4
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                04
+                05
               </h1>
             </div>
           </a>

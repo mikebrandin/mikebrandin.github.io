@@ -2,22 +2,47 @@ const userData = {
   githubUsername: "mikebrandin",
   name: "Mike Brandin",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "/avatar.jpg", //#TODO: find professional photo
   email: "mikebrandinbiz@gmail.com",
   address: "Charlotte, NC",
   projects: [
     {
-      title: "",
-      link: "",
-      imgUrl: "/",
+      title: "Personal Website",
+      link: "https://github.com/mikebrandin/mikebrandin.github.io",
+      imgUrl: "/website.png",
     },
-    
+    {
+      title: "Makerspace Sign-In",
+      link: "https://www.cumaker.space/",
+      imgUrl: "/cumaker.png",
+    },
+    {
+      title: "Discord Bot",
+      link: "https://github.com/mikebrandin/DiscordBot",
+      imgUrl: "/discordbot.png",
+    },
+    {
+      title: "Package Pal",
+      link: "https://github.com/mikebrandin/PackagePal",
+      imgUrl: "/pallogo.png",
+    },
+    {
+      title: "Adversarial Search Connect 4",
+      link: "",
+      imgUrl: "/connect4.png",
+    },
+    {
+      title: "Grade Book in React",
+      link: "https://github.com/mikebrandin/Web-Application-Development/tree/main/project6/app",
+      imgUrl: "/grades.png",
+    }
   ],
   about: {
     title:
       "I'm a Software Developer with a passion for building impactful products and using innovative solutions to enhance user experiences",
     description: [
-      "Throughout my career as a engineer/developer, I have gained experience with Full-Stack Development, Cloud Architecting, Data Engineering, Machine Learning, Web Development, and Software Testing.",
+      "With a Bachelor of Science in Computer Science, Summa Cum Laude and General Honors, I am a recent graduate of Clemson University. " 
+      + "Throughout my academic and professional journey, I have honed my skills in various areas including Full-Stack Development, Cloud Architecting, Data Engineering, Machine Learning, and Web Development.",
     ],
     currentProject: "Discord Bot",
     currentProjectUrl: "https://github.com/mikebrandin/DiscordBot",
@@ -105,7 +130,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "",
+    "https://docs.google.com/document/d/1DyKHYr4eZcYPtYFzLe-6ME1gL6e8ZCT-NkhTgopDb_w/edit?usp=sharing", // TODO: update resume
   socialLinks: {
     twitter: "https://twitter.com/mikejbrandin",
     linkedin: "https://www.linkedin.com/in/mikebrandin/",
