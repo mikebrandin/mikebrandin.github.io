@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className="text-5xl md:text-9xl font-bold pt-16 text-center md:text-left">
           About Me.
         </h1>
       </div>
@@ -31,18 +31,21 @@ export default function AboutMe() {
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact
+                Certificates
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                Please don't hesitate to reach out and send me an {" "}
-                <a
-                  href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  email
-                </a>{" "}
-                with any inquiries.
-              </p>
+              <div className="mt-4 ml-4">
+                <div className="flex flex-row justify-start items-center">
+                    <a
+                      href={"https://aws.amazon.com/certification/certified-cloud-practitioner/"}
+                      className="flex flex-row items-center space-x-4 group"
+                    >
+                      <div className="my-4">&#x2022;</div>
+                      <div className="text-lg text-gray-500 relative overflow-hidden dark:text-gray-300">
+                          Currently studying for AWS Certified Cloud Practitioner
+                      </div>
+                    </a>
+                </div>
+                </div>
             </div>
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
@@ -168,10 +171,10 @@ export default function AboutMe() {
               />
             </div>
 
-            <h1 className="my-4 bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="my-5 bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="flex flex-row flex-wrap mt-4">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
                 className="h-20 w-20 mx-4 my-0"

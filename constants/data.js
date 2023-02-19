@@ -32,7 +32,7 @@ const userData = {
       imgUrl: "/connect4.png",
     },
     {
-      title: "Grade Book in React",
+      title: "Grade Book - React",
       link: "https://github.com/mikebrandin/Web-Application-Development/tree/main/project6/app",
       imgUrl: "/grades.png",
     }
@@ -41,7 +41,7 @@ const userData = {
     title:
       "I'm a Software Developer with a passion for building impactful products and using innovative solutions to enhance user experiences",
     description: [
-      "With a Bachelor of Science in Computer Science, Summa Cum Laude and General Honors, I am a recent graduate of Clemson University. " 
+      "I am a recent graduate of Clemson University with a Bachelor of Science in Computer Science, Summa Cum Laude and General Honors. " 
       + "Throughout my academic and professional journey, I have honed my skills in various areas including Full-Stack Development, Cloud Architecting, Data Engineering, Machine Learning, and Web Development.",
     ],
     currentProject: "Discord Bot",

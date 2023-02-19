@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
-      <div className="w-full md:w-2/4 mx-auto text-center md:text-left lg:p-20">
+      <div className="z-50 resize w-full md:w-2/4 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <Highlight color={colors[0]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-200 dark:text-gray-200 my-2">
@@ -33,14 +33,14 @@ export default function Hero() {
           </Highlight>
           <Highlight color={colors[4]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-200 dark:text-gray-200 my-2">
-              Techie
+              Creator
             </h1>
           </Highlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-        <div className="w-3/4 ">
+      <div className="px-2 lg:block relative w-full md:w-1/2 -mr-20 mt-10">
+        <div className="object-scale-down w-3/4 ">
           <img src={userData.avatarUrl} alt="avatar" className="shadow" />
         </div>
       </div>
