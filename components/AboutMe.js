@@ -41,7 +41,7 @@ export default function AboutMe() {
                     >
                       <div className="my-4">&#x2022;</div>
                       <div className="text-lg text-gray-500 relative overflow-hidden dark:text-gray-300">
-                          Currently studying for AWS Certified Cloud Practitioner
+                          Planning to become a AWS Certified Cloud Practitioner
                       </div>
                     </a>
                 </div>
@@ -52,7 +52,8 @@ export default function AboutMe() {
                 Resume
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                If you're interested in me as a candidate you can review my  {" "}
+                
+                If you'd like to consider me for any opportunities, please feel free to review my {" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -60,7 +61,7 @@ export default function AboutMe() {
                 >
                   resume
                 </a>{" "}
-                here. 
+                . 
               </p>
             </div>
             {/* Social Links */}
