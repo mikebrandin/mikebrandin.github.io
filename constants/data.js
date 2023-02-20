@@ -130,7 +130,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1DyKHYr4eZcYPtYFzLe-6ME1gL6e8ZCT-NkhTgopDb_w/edit?usp=sharing", // TODO: update resume
+    "https://drive.google.com/file/d/1YUPA4hDmfwshWHyRY61cHZ6ATq2BLeZA/view?usp=share_link",
   socialLinks: {
     twitter: "https://twitter.com/mikejbrandin",
     linkedin: "https://www.linkedin.com/in/mikebrandin/",
