@@ -63,7 +63,7 @@ const userData = {
       company: "Clemson University, Clemson, SC",
       year: "2022",
       companyLink: "https://clemson.edu",
-      desc: "I graduated Summa Cum Laude in 3.5 years recieving a Bachelor of Science in Computer Science with a 3.97 GPA and General Honors. " + 
+      desc: "I graduated Summa Cum Laude in 3.5 years, recieving a Bachelor of Science in Computer Science with a 3.97 GPA and General Honors. " + 
             "I held a part-time job on-campus for every semester and also was a member of numerous clubs including " + 
             " Google Student Developer Club, ACM, Debate Club, and Honor Society of Phi Kappa Phi.",
     },

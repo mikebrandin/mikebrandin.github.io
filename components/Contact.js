@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="text-gray-700 font-semibold text-2xl">
+              <h1 className="text-gray-400 font-semibold text-2xl">
                 Get in touch, let's talk.
               </h1>
             </header>
@@ -50,35 +50,34 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form className="form rounded-lg bg-gray-50 dark:bg-gray-80 p-4 flex flex-col">
-            <label htmlFor="name" className="text-sm text-gray-600 mx-4">
-              {" "}
+          <form method="POST" action="mailto:mikebrandinbiz@gmail.com" encType="text/plain" className="form rounded-lg bg-gray-50 dark:bg-gray-700 p-4 flex flex-col">
+            <label htmlFor="name" className="text-sm text-gray-600 dark:text-gray-200 mx-4">
               Name
             </label>
             <input
               type="text"
-              className="bg-white text-black font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="bg-white dark:bg-gray-800 dark:text-white text-black font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
             />
-            <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
+            <label htmlFor="email" className="text-sm text-gray-600 dark:text-gray-200 mx-4 mt-4">
               Email
             </label>
             <input
               type="text"
-              className="bg-white text-black font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="bg-white dark:bg-gray-800 dark:text-white text-black font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
             />
             <label
               htmlFor="message"
-              className="text-sm text-gray-600 mx-4 mt-4"
+              className="text-sm text-gray-600 dark:text-gray-200 mx-4 mt-4"
             >
               Message
             </label>
             <textarea
               rows="4"
               type="text"
-              className="bg-white text-black font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
-              name="message"
+              className="bg-white text-black dark:bg-gray-800 dark:text-white font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              name="body"
             ></textarea>
             <button
               type="submit"
