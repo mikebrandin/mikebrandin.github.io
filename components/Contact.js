@@ -50,7 +50,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form method="POST" action="mailto:mikebrandinbiz@gmail.com" encType="text/plain" className="form rounded-lg bg-gray-50 dark:bg-gray-700 p-4 flex flex-col">
+          <form method="POST" action="mailto:mikebrandinbiz@gmail.com?subject=Personal_Website_Contact" encType="text/plain" className="form rounded-lg bg-gray-50 dark:bg-gray-700 p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 dark:text-gray-200 mx-4">
               Name
             </label>
