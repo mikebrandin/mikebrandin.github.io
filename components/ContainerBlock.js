@@ -32,7 +32,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:site_name" content="Mike Brandin" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
+        <meta property="og:image" content={"/favicon.ico"} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@" />
         <meta name="twitter:title" content={meta.title} />
