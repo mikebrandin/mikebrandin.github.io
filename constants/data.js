@@ -17,9 +17,9 @@ const userData = {
       imgUrl: "/cumaker.png",
     },
     {
-      title: "Discord Bot",
-      link: "https://github.com/mikebrandin/DiscordBot",
-      imgUrl: "/discordbot.png",
+      title: "WhatToWatch",
+      link: "https://github.com/mikebrandin/WhatToWatch-Discord-Bot",
+      imgUrl: "/whattowatch.png",
     },
     {
       title: "Package Pal",
@@ -93,7 +93,7 @@ const userData = {
       companyLink: "https://www.cumaker.space/",
       desc: "I worked with AWS on a capstone project for the Clemson Makerspace. We were tasked with developing a sign-in system and using agile methodologies to plan sprints." + 
             " In addition to helping redesigning the front-end of the sign-in system, I worked primarily on creating a dashboard for gathering user analytics for reports." + 
-            " I used Athena to query our DynamoDB tabeles and Quicksight to create the dashboards. The front-end was built on React, Vite and Typescript.",
+            " I used Athena to query our DynamoDB tables and Quicksight to create the dashboards. The front-end was built on React, Vite and Typescript.",
     },
     {
       title: "Technical Support",
