@@ -6,7 +6,7 @@ export default function AboutMe() {
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className="text-5xl md:text-9xl font-bold pt-16 text-center md:text-left">
-          About Me.
+          About Me
         </h1>
       </div>
       <div className="bg-[#e3e3e3] -mt-10 dark:bg-gray-900">
@@ -41,7 +41,7 @@ export default function AboutMe() {
                     >
                       <div className="my-4">&#x2022;</div>
                       <div className="text-lg text-gray-500 relative overflow-hidden dark:text-gray-300">
-                          Planning to become a AWS Certified Cloud Practitioner
+                          AWS Certified Cloud Practitioner April 2023
                       </div>
                     </a>
                 </div>
@@ -61,7 +61,7 @@ export default function AboutMe() {
                 >
                   resume
                 </a>{" "}
-                . 
+                 
               </p>
             </div>
             {/* Social Links */}
