@@ -48,8 +48,8 @@ const userData = {
       company: "Ally, Charlotte, NC",
       year: "2023",
       companyLink: "https://ally.com",
-      desc:  "One of the lead full-stack developers and cloud engineers on the team. " + 
-            "Working on a Cloud Platform Integration as a Software Engineer helping develop and transform enterprise applications to the cloud (AWS, Azure).",
+      desc:  "One of the lead full-stack developers and cloud engineers on the team" + 
+            "working on Cloud Platform Integration to develop and transform enterprise applications to the cloud (AWS, Azure).",
     },
     {
       title: "Graduated",
