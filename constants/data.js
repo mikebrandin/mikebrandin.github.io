@@ -7,14 +7,14 @@ const userData = {
   address: "Charlotte, NC",
   projects: [
     {
-      title: "Personal Website",
-      link: "https://github.com/mikebrandin/mikebrandin.github.io",
-      imgUrl: "/website.png",
+      title: "Alchemy Sort",
+      link: "https://github.com/mikebrandin/Alchemy-Sort",
+      imgUrl: "/alchemy_sort_app.png",
     },
     {
       title: "Makerspace Sign-In",
       link: "https://www.cumaker.space/",
-      imgUrl: "/cumaker.png",
+      imgUrl: "/cu_maker.png",
     },
     {
       title: "WhatToWatch",
@@ -30,21 +30,16 @@ const userData = {
       title: "Adversarial Search Connect 4",
       link: "",
       imgUrl: "/connect4.png",
-    },
-    {
-      title: "Grade Book - React",
-      link: "https://github.com/mikebrandin/Web-Application-Development/tree/main/project6/app",
-      imgUrl: "/grades.png",
     }
   ],
   about: {
     title:
       "I'm a Software Developer with a passion for building impactful products and using innovative solutions to enhance user experiences",
     description: [
-      "I am a recent graduate of Clemson University with a Bachelor of Science in Computer Science, Summa Cum Laude and General Honors. " 
+      "B.S. Computer Science from Clemson University. " 
       + "Throughout my academic and professional journey, I have honed my skills in various areas including Full-Stack Development, Cloud Architecting, Data Engineering, Machine Learning, Web Development, and Automation.",
     ],
-    currentProject: "Discord Bot",
+    currentProject: "Alchemy Sort",
     currentProjectUrl: "https://github.com/mikebrandin/DiscordBot",
   },
   experience: [
@@ -53,10 +48,8 @@ const userData = {
       company: "Ally, Charlotte, NC",
       year: "2023",
       companyLink: "https://ally.com",
-      desc: "I have returned to Ally in the Early Talent program after completing a successful internship. " + 
-            "During our bootcamp, I was tasked with working in an agile group for a capstone project where we created an email auto-followup design pattern using serverless Lambda functions to periodically check a database for missing entries." + 
-            " I was the primary back-end (Python) developer and cloud engineer on the team. " + 
-            "After the bootcamp, I join the Cloud Operations team as a Software Engineer helping develop and transform enterprise applications to the cloud (AWS).",
+      desc:  "One of the lead full-stack developers and cloud engineers on the team. " + 
+            "Working on a Cloud Platform Integration as a Software Engineer helping develop and transform enterprise applications to the cloud (AWS, Azure).",
     },
     {
       title: "Graduated",

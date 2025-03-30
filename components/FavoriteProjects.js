@@ -32,22 +32,21 @@ export default function FavoriteProjects() {
           </Link>
         </header>
 
-        {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
             href=""
-            className="w-full block col-span-3 shadow-2xl"
+            className="w-full block sm:col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/cumaker.png"
-                alt="clemson-makerspace"
+                src="/alchemy_sort_app.png"
+                alt="Alchemy Sort"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Makerspace Sign-In 
-              </h1> 
+                Alchemy Sort
+              </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
               </h1>
@@ -56,50 +55,9 @@ export default function FavoriteProjects() {
           {/* Single card */}
           <a
             href=""
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {}
-              <img
-                src="/quicksight.png"
-                alt="Quicksight"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Makerspace Quicksight
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href=""
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            className="w-full block col-span-3 sm:col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
-              {}
-              <img
-                src="/grades.png"
-                alt="Grade Book"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Grade Book
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-200 font-bold text-xl">
-                03
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href=""
-            className="w-full block col-span-3  sm:col-span-1 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              {}
               <img
                 src="/packagepal.png"
                 alt="PackagePal"
@@ -109,7 +67,26 @@ export default function FavoriteProjects() {
                 PackagePal
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                04
+                02
+              </h1>
+            </div>
+          </a>
+          {/* Single card */}
+          <a
+            href=""
+            className="w-full block col-span-2 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/cu_maker.png"
+                alt="clemson-makerspace"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                Makerspace Sign-In 
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                03
               </h1>
             </div>
           </a>
@@ -119,7 +96,6 @@ export default function FavoriteProjects() {
             className="w-full block col-span-2 sm:col-span-2 shadow-xl"
           >
             <div className="relative overflow-hidden">
-              {}
               <img
                 src="/connect4.png" width="840"
                 alt="Adversial Search - Connect 4"
@@ -129,7 +105,7 @@ export default function FavoriteProjects() {
                 AI Adversial Search - Connect 4
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                05
+                04
               </h1>
             </div>
           </a>
