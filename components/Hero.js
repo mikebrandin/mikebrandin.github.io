@@ -56,7 +56,7 @@ export default function Hero() {
               <h1 className="px-2 text-sm">        
                 Clemson University (Honors College) '22<br/>
                 Bachelor of Science in Computer Science<br/>
-                GPA: 3.97/4.0
+                GPA: 4.0
               </h1>
             </div>
             <div className="flex items-center mt-4 text-gray-600 dark:text-gray-400">
